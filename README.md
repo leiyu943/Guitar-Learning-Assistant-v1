@@ -3,6 +3,6 @@ This is a PyQt6 desktop practice workbench for classical guitar. The current ver
 
 
 # For Executable version/可执行版本：
-## https://drive.google.com/file/d/1T52j2I-HzOUTJ9SLeo3VNaPIYJwKQDUn/view?usp=drive_link
-## 链接: https://pan.baidu.com/s/18KTbJKTyk3RPpVDZOe5ZDQ?pwd=yxws 提取码: yxws 
+## Googledrive:https://drive.google.com/file/d/1T52j2I-HzOUTJ9SLeo3VNaPIYJwKQDUn/view?usp=drive_link
+## 百度盘：链接: https://pan.baidu.com/s/18KTbJKTyk3RPpVDZOe5ZDQ?pwd=yxws 提取码: yxws 
 
