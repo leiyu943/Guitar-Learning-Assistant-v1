@@ -34,16 +34,11 @@ The bundled scores and audio sources are recorded in each song's `info.json`.
 当前主要面向 Windows + Anaconda/Python 3.11：
 
 ```powershell
-C:\Users\12088\anaconda3\python.exe main_window.py
+\anaconda3\python.exe main_window.py
 ```
 
 依赖：PyQt6、numpy、opencv-python、librosa、sounddevice、soundfile。音频输出需要可用的系统音频设备。
 
-运行测试：
-
-```powershell
-C:\Users\12088\anaconda3\python.exe -m unittest discover -s tests -v
-```
 
 ## 优点 / Strengths
 
@@ -65,19 +60,9 @@ C:\Users\12088\anaconda3\python.exe -m unittest discover -s tests -v
 7. **缺少发布工程**：尚未提供稳定安装包、自动更新、跨平台构建或持续集成流水线。
 8. **删除不可撤销**：曲目删除目前是直接移除整个曲目文件夹，没有回收站或恢复历史；发布前应考虑备份、软删除或撤销机制。
 
-## 开源前建议 / Before publishing
-
-1. 在 `LICENSE-MIT.txt` 与 `LICENSE-APACHE.txt` 中二选一，将其作为应用代码的正式许可证（并替换 `AUTHOR_NAME`）；保留 `LICENSE` 作为非盈利和版权处理政策说明。
-2. 审核 `songs/` 中每个素材的再分发许可，保留来源和署名要求。
-3. 移除真实个人路径、临时目录信息和调试日志。
-4. 增加 `requirements.txt` 或 `pyproject.toml`，并提供一键启动脚本。
-5. 将分行和音频同步回归样本纳入 CI，避免后续优化破坏已支持的谱面。
-6. 明确标注尚未实现的功能，避免用户误以为已有录音评分或 AI 教练。
 
 ## 项目定位 / Project status
 
-建议对外称为：**本地吉他谱面与音频同步练习工作台（开发中）**。
+**本地吉他谱面与音频同步练习工作台（开发中）**。
 
-不建议对外称为：完整 OMR 引擎、专业录音评分软件、AI 吉他教练或完整原版恢复版。
-
-Recommended public positioning: **an in-development local guitar score and audio synchronization practice workbench**.
+**an in-development local guitar score and audio synchronization practice workbench**.
