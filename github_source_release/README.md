@@ -40,25 +40,54 @@ The bundled scores and audio sources are recorded in each song's `info.json`.
 依赖：PyQt6、numpy、opencv-python、librosa、sounddevice、soundfile。音频输出需要可用的系统音频设备。
 
 
+
+
 ## 优点 / Strengths
 
-1. **本地闭环**：曲库、谱面、波形、跳播和光标都在一个轻量桌面程序中完成，不依赖在线账户或云端服务。
-2. **版面结构识别**：利用长横谱线、线距以及五线谱/TAB 结构，而不是只按固定垂直距离切图。
-3. **自动与手动并存**：自动识别适合快速开始，配对刻度适合精确校准，并允许按音频时间任意插入。
-4. **适合继续开发**：代码集中、曲目采用文件夹 + `info.json`、测试可直接运行，贡献者容易上手。
-5. **交互已可用**：双语切换、空格播放/暂停、谱面点击跳播等功能适合实际练习。
-6. **曲库管理直接**：删除操作有确认、限定在曲库目录内，并会自动切换到剩余曲目。
+1. **本地闭环 / Self-contained local workflow**：曲库、谱面、波形、跳播和光标都在一个轻量桌面程序中完成，不依赖在线账户或云端服务。  
+   The music library, scores, waveforms, seeking, and playback cursors are all handled within one lightweight desktop application, without requiring an online account or cloud service.
 
-## 缺点、限制与风险 / Limitations and risks
+2. **版面结构识别 / Score layout recognition**：利用长横谱线、线距以及五线谱/TAB 结构，而不是只按固定垂直距离切图。  
+   The system uses long horizontal staff lines, line spacing, and staff/TAB structure instead of relying solely on fixed vertical image slicing.
 
-1. **不是完整原版产品**：OMR 音符级识别、录音评分、AI 教练、练习计划、在线搜索下载等功能尚未完整恢复，部分入口仍是占位提示。
-2. **自动分行不是音乐语义识别**：不理解拍号、反复记号、跳房子、复杂多声部或跨页关系。扫描件、倾斜图片、断线谱、双栏谱和异常排版可能需要人工校准。
-3. **无刻度跳播只是估算**：没有配对刻度时按行序和横向比例推算；可靠的逐小节同步仍需手动添加刻度。
-4. **部分音频是合成音**：根据同版 MIDI 本地渲染的 WAV 主要用于同步测试，不应宣传为正式真人演奏录音。
-5. **平台耦合**：当前启动说明、字体和音频输出主要按 Windows 配置编写；其他系统和音频驱动可能需要适配。
-6. **许可证需要发布者选定**：目录中同时提供 `LICENSE-MIT.txt` 与 `LICENSE-APACHE.txt` 两个正式许可证模板，二选一用于原创代码；第三方谱面、音频、MIDI 和字体需要逐项核查，`info.json` 不能替代完整版权审查。
-7. **缺少发布工程**：尚未提供稳定安装包、自动更新、跨平台构建或持续集成流水线。
-8. **删除不可撤销**：曲目删除目前是直接移除整个曲目文件夹，没有回收站或恢复历史；发布前应考虑备份、软删除或撤销机制。
+3. **自动与手动并存 / Automatic and manual workflows**：自动识别适合快速开始，配对刻度适合精确校准，并允许按音频时间任意插入。  
+   Automatic recognition provides a quick starting point, while paired markers allow precise calibration and can be inserted at any audio position.
+
+4. **适合继续开发 / Easy to continue developing**：代码集中、曲目采用文件夹 + `info.json`、测试可直接运行，贡献者容易上手。  
+   The codebase is centralized, songs use a folder-plus-`info.json` structure, and the tests can be run directly, making it relatively easy for contributors to get started.
+
+5. **交互已可用 / Usable interaction**：双语切换、空格播放/暂停、谱面点击跳播等功能适合实际练习。  
+   Bilingual interface switching, Space-bar play/pause, and score-click seeking are already available for practical practice sessions.
+
+6. **曲库管理直接 / Straightforward library management**：删除操作有确认、限定在曲库目录内，并会自动切换到剩余曲目。  
+   Song deletion requires confirmation, is restricted to folders inside the library directory, and automatically switches to another available song.
+
+## 缺点、限制与风险 / Limitations and Risks
+
+1. **不是完整原版产品 / Not a complete reproduction of the original product**：OMR 音符级识别、录音评分、AI 教练、练习计划、在线搜索下载等功能尚未完整恢复，部分入口仍是占位提示。  
+   Note-level OMR recognition, recording evaluation, AI coaching, practice plans, and online search/download features have not yet been fully restored. Some interface entries remain placeholders.
+
+2. **自动分行不是音乐语义识别 / Automatic line detection is not music-semantic recognition**：不理解拍号、反复记号、跳房子、复杂多声部或跨页关系。扫描件、倾斜图片、断线谱、双栏谱和异常排版可能需要人工校准。  
+   The system does not understand time signatures, repeat signs, navigation symbols, complex polyphony, or cross-page relationships. Scanned pages, skewed images, broken staff lines, two-column layouts, and unusual formatting may require manual calibration.
+
+3. **无刻度跳播只是估算 / Seeking without markers is only an estimate**：没有配对刻度时按行序和横向比例推算；可靠的逐小节同步仍需手动添加刻度。  
+   When no paired markers are available, playback position is estimated from the line order and horizontal position. Reliable measure-by-measure synchronization still requires manually added markers.
+
+4. **部分音频是合成音 / Some audio is synthesized**：根据同版 MIDI 本地渲染的 WAV 主要用于同步测试，不应宣传为正式真人演奏录音。  
+   WAV files rendered locally from corresponding MIDI files are primarily intended for synchronization testing and should not be presented as official live or studio recordings.
+
+5. **平台耦合 / Platform dependence**：当前启动说明、字体和音频输出主要按 Windows 配置编写；其他系统和音频驱动可能需要适配。  
+   The current launch instructions, font assumptions, and audio output configuration are primarily designed for Windows. Other operating systems and audio drivers may require adaptation.
+
+6. **许可证需要发布者选定 / The publisher must choose a license**：目录中同时提供 `LICENSE-MIT.txt` 与 `LICENSE-APACHE.txt` 两个正式许可证模板，二选一用于原创代码；第三方谱面、音频、MIDI 和字体需要逐项核查，`info.json` 不能替代完整版权审查。  
+   The directory includes both `LICENSE-MIT.txt` and `LICENSE-APACHE.txt` as formal license templates. One should be selected for the original source code. Third-party scores, audio, MIDI files, and fonts must be reviewed individually, and `info.json` does not replace a complete copyright review.
+
+7. **缺少发布工程 / Limited release engineering**：尚未提供稳定安装包、自动更新、跨平台构建或持续集成流水线。  
+   A stable installer, automatic update mechanism, cross-platform build process, and continuous integration pipeline have not yet been provided.
+
+8. **删除不可撤销 / Deletion cannot be undone**：曲目删除目前是直接移除整个曲目文件夹，没有回收站或恢复历史；发布前应考虑备份、软删除或撤销机制。  
+   Deleting a song directly removes its entire song folder. There is no recycle bin or recovery history, so backups, soft deletion, or an undo mechanism should be considered before publication.
+```
 
 
 ## 项目定位 / Project status
