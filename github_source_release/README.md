@@ -87,7 +87,7 @@ The bundled scores and audio sources are recorded in each song's `info.json`.
 
 8. **删除不可撤销 / Deletion cannot be undone**：曲目删除目前是直接移除整个曲目文件夹，没有回收站或恢复历史；发布前应考虑备份、软删除或撤销机制。  
    Deleting a song directly removes its entire song folder. There is no recycle bin or recovery history, so backups, soft deletion, or an undo mechanism should be considered before publication.
-```
+
 
 
 ## 项目定位 / Project status
