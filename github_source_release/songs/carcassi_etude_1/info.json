@@ -1,0 +1,112 @@
+{
+  "title": "卡尔卡西练习曲 No.1（单页测试谱）",
+  "title_zh": "卡尔卡西练习曲 No.1",
+  "title_en": "Carcassi Etude No.1, Op.60",
+  "composer": "Matteo Carcassi",
+  "bpm": 160,
+  "description": "公版古典吉他谱，来自 Mutopia Project。音频由同版 MIDI 本地渲染，适合谱面识别、分行与播放同步测试。",
+  "source": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-01/carcassi-op60-01-a4.pdf",
+  "audio_source": "https://www.mutopiaproject.org/ftp/CarcassiM/O60/carcassi-op60-01/carcassi-op60-01.mid",
+  "license": "Public domain composition / freely distributed by Mutopia Project",
+  "paired_markers": [
+    {
+      "time_ms": 0,
+      "row_index": 0,
+      "score_x": 0.181913,
+      "row_top": 0.07030878859857483,
+      "row_bottom": 0.1320665083135392
+    },
+    {
+      "time_ms": 2941,
+      "row_index": 0,
+      "score_x": 0.540541,
+      "row_top": 0.07030878859857483,
+      "row_bottom": 0.1320665083135392
+    },
+    {
+      "time_ms": 15165,
+      "row_index": 2,
+      "score_x": 0.514553,
+      "row_top": 0.228504,
+      "row_bottom": 0.290261
+    },
+    {
+      "time_ms": 32953,
+      "row_index": 5,
+      "score_x": 0.494802,
+      "row_top": 0.4513064133016627,
+      "row_bottom": 0.5130641330166271
+    },
+    {
+      "time_ms": 39009,
+      "row_index": 6,
+      "score_x": 0.5,
+      "row_top": 0.5220902612826603,
+      "row_bottom": 0.5838479809976247
+    },
+    {
+      "time_ms": 42184,
+      "row_index": 7,
+      "score_x": 0.085239,
+      "row_top": 0.5947743467933492,
+      "row_bottom": 0.6565320665083135
+    },
+    {
+      "time_ms": 59995,
+      "row_index": 9,
+      "score_x": 0.602911,
+      "row_top": 0.7472684085510689,
+      "row_bottom": 0.8090261282660333
+    },
+    {
+      "time_ms": 61485,
+      "row_index": 9,
+      "score_x": 0.701663,
+      "row_top": 0.7472684085510689,
+      "row_bottom": 0.8090261282660333
+    }
+  ],
+  "score_rows": [
+    {
+      "top": 0.070309,
+      "bottom": 0.132067
+    },
+    {
+      "top": 0.141568,
+      "bottom": 0.203325
+    },
+    {
+      "top": 0.228504,
+      "bottom": 0.290261
+    },
+    {
+      "top": 0.302138,
+      "bottom": 0.363895
+    },
+    {
+      "top": 0.380523,
+      "bottom": 0.441805
+    },
+    {
+      "top": 0.451306,
+      "bottom": 0.513064
+    },
+    {
+      "top": 0.52209,
+      "bottom": 0.583848
+    },
+    {
+      "top": 0.594774,
+      "bottom": 0.656532
+    },
+    {
+      "top": 0.666033,
+      "bottom": 0.727791
+    },
+    {
+      "top": 0.747268,
+      "bottom": 0.809026
+    }
+  ],
+  "score_rows_mode": "auto"
+}

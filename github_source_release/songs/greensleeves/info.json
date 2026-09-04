@@ -1,0 +1,64 @@
+{
+  "title": "绿袖子 (Greensleeves)",
+  "title_zh": "绿袖子",
+  "title_en": "Greensleeves",
+  "bpm": 90,
+  "description": "从本机已有的 Greensleeves 音频与乐谱恢复导入。",
+  "segments": [],
+  "paired_markers": [
+    {
+      "time_ms": 2176,
+      "row_index": 0,
+      "score_x": 0.044699,
+      "row_top": 0.144418,
+      "row_bottom": 0.295487
+    },
+    {
+      "time_ms": 17346,
+      "row_index": 0,
+      "score_x": 0.89501,
+      "row_top": 0.14441805225653206,
+      "row_bottom": 0.2954869358669834
+    },
+    {
+      "time_ms": 31584,
+      "row_index": 2,
+      "score_x": 0.046778,
+      "row_top": 0.53729216152019,
+      "row_bottom": 0.6878859857482186
+    },
+    {
+      "time_ms": 44703,
+      "row_index": 3,
+      "score_x": 0.045738,
+      "row_top": 0.7344418052256532,
+      "row_bottom": 0.8855106888361045
+    },
+    {
+      "time_ms": 58630,
+      "row_index": 3,
+      "score_x": 0.953222,
+      "row_top": 0.7344418052256532,
+      "row_bottom": 0.8855106888361045
+    }
+  ],
+  "score_rows": [
+    {
+      "top": 0.144418,
+      "bottom": 0.295487
+    },
+    {
+      "top": 0.339667,
+      "bottom": 0.490261
+    },
+    {
+      "top": 0.537292,
+      "bottom": 0.687886
+    },
+    {
+      "top": 0.734442,
+      "bottom": 0.885511
+    }
+  ],
+  "score_rows_mode": "auto"
+}

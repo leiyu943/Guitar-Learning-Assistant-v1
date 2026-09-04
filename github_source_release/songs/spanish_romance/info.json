@@ -1,0 +1,72 @@
+{
+  "title": "爱的罗曼史（Spanish Romance）",
+  "title_zh": "爱的罗曼史",
+  "title_en": "Spanish Romance",
+  "composer": "Anonymous",
+  "bpm": 120,
+  "description": "公版古典吉他独奏，单页 7 行标准五线谱；音频由 Mutopia 同版 MIDI 本地渲染。",
+  "source": "https://www.mutopiaproject.org/ftp/Anonymous/spanish-romance/spanish-romance-a4.pdf",
+  "audio_source": "https://www.mutopiaproject.org/ftp/Anonymous/spanish-romance/spanish-romance.mid",
+  "license": "Public-domain composition; Mutopia typesetting licensed CC BY-SA 2.5",
+  "paired_markers": [
+    {
+      "time_ms": 0,
+      "row_index": 0,
+      "score_x": 0.174636,
+      "row_top": 0.142993,
+      "row_bottom": 0.204751
+    },
+    {
+      "time_ms": 22454,
+      "row_index": 3,
+      "score_x": 0.274428,
+      "row_top": 0.44038,
+      "row_bottom": 0.502138
+    },
+    {
+      "time_ms": 24013,
+      "row_index": 3,
+      "score_x": 0.427235,
+      "row_top": 0.44038,
+      "row_bottom": 0.502138
+    },
+    {
+      "time_ms": 46481,
+      "row_index": 6,
+      "score_x": 0.862786,
+      "row_top": 0.747268,
+      "row_bottom": 0.809026
+    }
+  ],
+  "score_rows": [
+    {
+      "top": 0.142993,
+      "bottom": 0.204751
+    },
+    {
+      "top": 0.247981,
+      "bottom": 0.309739
+    },
+    {
+      "top": 0.350119,
+      "bottom": 0.411876
+    },
+    {
+      "top": 0.44038,
+      "bottom": 0.502138
+    },
+    {
+      "top": 0.542993,
+      "bottom": 0.604276
+    },
+    {
+      "top": 0.647981,
+      "bottom": 0.709739
+    },
+    {
+      "top": 0.747268,
+      "bottom": 0.809026
+    }
+  ],
+  "score_rows_mode": "auto"
+}

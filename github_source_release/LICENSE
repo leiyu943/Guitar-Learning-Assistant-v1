@@ -1,0 +1,26 @@
+非商业使用与版权联系说明
+================================
+
+本目录中的原创工程代码以“非盈利、非商业、永久不盈利”为项目发布意图提供。
+作者不通过本项目收取费用、销售功能、投放广告或以其他方式盈利；作者也无意在未来通过本项目盈利。
+
+作者邮箱（请发布者替换为真实邮箱）：AUTHOR_EMAIL@example.com
+
+如您认为本目录中的代码、图片、谱面、音频、MIDI、字体或其他内容侵犯了您的著作权、商标权、肖像权或其他合法权益，请通过上述邮箱联系作者，并提供：
+
+1. 权利证明或授权信息；
+2. 被指称侵权的文件路径或内容；
+3. 您的联系方式和具体处理诉求。
+
+作者将在收到完整、可信的通知后尽快核查；如确认存在侵权或授权不清，将及时删除或替换相关内容。
+
+本声明不授予第三方素材额外的版权许可，也不替代各素材原有的许可证、署名和来源要求。`songs/` 下的曲谱、音频和 MIDI 可能受其各自来源许可约束，请同时查看对应的 `info.json`。
+
+本目录另附两个可选的正式软件许可证模板：
+
+- `LICENSE-MIT.txt`：MIT License；
+- `LICENSE-APACHE.txt`：Apache License 2.0。
+
+发布原创代码时请二选一，并将 `AUTHOR_NAME` 替换为实际版权所有者。不要将 MIT 或 Apache-2.0 自动套用于没有相应授权的第三方曲谱、音频、MIDI、字体或其他素材。
+
+This project is distributed with a non-profit, non-commercial intent. The author does not and will not monetize this project. For copyright concerns, please replace AUTHOR_EMAIL@example.com with the author's real contact address before publishing and contact the author with proof, file paths, and a requested remedy. Third-party materials remain subject to their own licenses and attribution requirements.

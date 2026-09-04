@@ -1,0 +1,92 @@
+{
+  "title": "阿瓜多小圆舞曲 Op.3 No.3（单页测试谱）",
+  "title_zh": "阿瓜多小圆舞曲 Op.3 No.3",
+  "title_en": "Aguado Petite Valse, Op.3 No.3",
+  "composer": "Dionisio Aguado",
+  "bpm": 90,
+  "description": "公版古典吉他短曲。单页、5 行谱；音频由 Mutopia 同版 MIDI 本地渲染，适合测试谱面自动分行、刻度与跨行光标。",
+  "source": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n03/aguado-op03n03-a4.pdf",
+  "audio_source": "https://www.mutopiaproject.org/ftp/AguadoD/O3/aguado-op03n03/aguado-op03n03.mid",
+  "license": "Public-domain composition; Mutopia typesetting licensed CC BY-SA 4.0",
+  "paired_markers": [
+    {
+      "time_ms": 0,
+      "row_index": 0,
+      "score_x": 0.206861,
+      "row_top": 0.114014,
+      "row_bottom": 0.175772
+    },
+    {
+      "time_ms": 3978,
+      "row_index": 0,
+      "score_x": 0.66632,
+      "row_top": 0.114014,
+      "row_bottom": 0.175772
+    },
+    {
+      "time_ms": 7970,
+      "row_index": 1,
+      "score_x": 0.269231,
+      "row_top": 0.193349,
+      "row_bottom": 0.254632
+    },
+    {
+      "time_ms": 11962,
+      "row_index": 1,
+      "score_x": 0.75052,
+      "row_top": 0.193349,
+      "row_bottom": 0.254632
+    },
+    {
+      "time_ms": 16316,
+      "row_index": 2,
+      "score_x": 0.450104,
+      "row_top": 0.296437,
+      "row_bottom": 0.358195
+    },
+    {
+      "time_ms": 19995,
+      "row_index": 2,
+      "score_x": 0.951143,
+      "row_top": 0.296437,
+      "row_bottom": 0.358195
+    },
+    {
+      "time_ms": 25325,
+      "row_index": 3,
+      "score_x": 0.813929,
+      "row_top": 0.392399,
+      "row_bottom": 0.454157
+    },
+    {
+      "time_ms": 33037,
+      "row_index": 4,
+      "score_x": 0.951143,
+      "row_top": 0.481235,
+      "row_bottom": 0.542518
+    }
+  ],
+  "score_rows": [
+    {
+      "top": 0.114014,
+      "bottom": 0.175772
+    },
+    {
+      "top": 0.193349,
+      "bottom": 0.254632
+    },
+    {
+      "top": 0.296437,
+      "bottom": 0.358195
+    },
+    {
+      "top": 0.392399,
+      "bottom": 0.454157
+    },
+    {
+      "top": 0.481235,
+      "bottom": 0.542518
+    }
+  ],
+  "score_rows_mode": "auto"
+}
